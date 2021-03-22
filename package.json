@@ -1,0 +1,13 @@
+{
+  "name": "node-img-crop",
+  "version": "1.0.0",
+  "description": "Node.js image crop example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": ["Node", "image", "crop"],
+  "author": "Mert TURKMENOGLU",
+  "license": "MIT"
+}
