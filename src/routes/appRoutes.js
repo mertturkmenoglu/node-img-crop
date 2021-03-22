@@ -6,4 +6,8 @@ const router = express.Router();
 
 router.get('/', appController.getHomePage);
 
+router.get('/image-upload', appController.getImageUploadPage);
+
+router.post('/image-upload', appController.postImageUpload);
+
 module.exports = router;
